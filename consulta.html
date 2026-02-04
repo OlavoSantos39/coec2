@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+     <header>
+     <header>
+  <img src="img/logo.png" width="200px" alt="">
+  <h2>Calendário Online de Eventos Online</h2>
+    <nav>
+        <button class="botao-animado"><a href="principal.html">Início</a></button>
+        <button class="botao-animado"><a href="saude.html">Saúde</a></button>
+        <button class="botao-animado"><a href="educacao.html">Educação</a></button>
+        <button class="botao-animado"><a href="lazer.html">Lazer e Cultura</a></button>
+        <button class="botao-animado"><a href="cadastro_evento.html">Cadastrar evento</a></button>
+        <button class="botao-animado"><a href="contato.html">Contate-nos</a></button>
+        <button class="botao-animado"><a href="index.html">Sair</a></button>
+    </nav>
+   <script>
+        (function(d, s, id) {
+            if (d.getElementById(id)) {
+                if (window.__TOMORROW__) {
+                    window.__TOMORROW__.renderWidget();
+                }
+                return;
+            }
+            const fjs = d.getElementsByTagName(s)[0];
+            const js = d.createElement(s);
+            js.id = id;
+            js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+
+            fjs.parentNode.insertBefore(js, fjs);
+        })(document, 'script', 'tomorrow-sdk');
+        </script>
+
+        <div class="tomorrow"
+           data-location-id="015284"
+           data-language="PT"
+           data-unit-system="METRIC"
+           data-skin="light"
+           data-widget-type="aqiPollen"
+           style="padding-bottom:22px;position:relative;"
+        >
+          <a
+            href="https://weather.tomorrow.io/"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+            style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+          >
+            <img
+              alt="Powered by Tomorrow.io"
+              src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+              width="250"
+              height="18"
+            />
+          </a>
+        </div>
+    </header>
+    <main>
+        <h2>Agende sua Consulta Médica &#x1FA7A;</h2>
+        <form>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="data_nascimento">Data de Nascimento:</label>
+            <input type="date" id="data_nascimento" name="data_nascimento" required><br><br>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" required><br><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="data_consulta">Data da Consulta:</label>
+            <input type="date" id="data_consulta" name="data_consulta" required><br><br>
+
+            <label for="hora_consulta">Hora da Consulta:</label>
+            <input type="time" id="hora_consulta" name="hora_consulta" required><br><br>
+
+            <label for="local_consulta">Local da Consulta:</label>
+            <select id="local_consulta" name="local_consulta" required>
+                <option value="">Selecione a clinica conveniada!</option>
+                <option value="Hospital">Hospital</option>
+                <option value="Maternidade">Maternidade</option>
+                <option value="Posto de Saúde">Posto de Saúde</option>
+            </select><br><br>
+
+            <button type="submit">Agendar Consulta</button>
+            <a href="conferir_consulta.html">Já marcou consulta? Confira aqui</a>
+        </form>
+    </main>
+</body>
+<footer>
+    <p>© 2026 COEC. Todos os direitos reservados a equipe OMEGA TSI UAPI</p>
+    <p>Polo: Teresina Sul</p>
+</footer>
+</body>
+</html>

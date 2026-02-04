@@ -1,13 +1,5 @@
-
-/*
-.color1 { #1f0a1d };
-.color2 { #334f53 };
-.color3 { #45936c };
-.color4 { #9acc77 };
-.color5 { #e5ead4 };
-*/
 header {
-    width: 90%;
+    width: 100%%;
     left: 0;
     top: 0;
     background-color: #94c1ed ;
@@ -55,6 +47,10 @@ header button {
     transform: translateY(-5px);
     box-shadow: 0 5px 10px white;
     background-color:   #6c4fff;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 
