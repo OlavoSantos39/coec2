@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" width="200px" alt="">
+  <h2>Calendário Online de Eventos Online</h2>
+   <nav>
+            <button class="botao-animado"><a href="principal.html">Inicio</a></button>
+            <button class="botao-animado"><a href="educacao.html">Educação</a></button>
+            <button class="botao-animado"><a href="lazer.html">Lazer e Cultura</a></button>
+            <button class="botao-animado"><a href="cadastro_evento.html">Cadastrar evento</a></button>
+            <button class="botao-animado"><a href="contato.html">Contate-nos</a></button>
+            <button class="botao-animado"><a href="index.html">Sair</a></button>
+        </nav>
+        <script>
+        (function(d, s, id) {
+            if (d.getElementById(id)) {
+                if (window.__TOMORROW__) {
+                    window.__TOMORROW__.renderWidget();
+                }
+                return;
+            }
+            const fjs = d.getElementsByTagName(s)[0];
+            const js = d.createElement(s);
+            js.id = id;
+            js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+
+            fjs.parentNode.insertBefore(js, fjs);
+        })(document, 'script', 'tomorrow-sdk');
+        </script>
+
+        <div class="tomorrow"
+           data-location-id="015284"
+           data-language="PT"
+           data-unit-system="METRIC"
+           data-skin="light"
+           data-widget-type="aqiPollen"
+           
+        >
+          <a
+            href="https://weather.tomorrow.io/"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+           
+          >
+            <img
+              alt="Powered by Tomorrow.io"
+              src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+              width="250"
+              height="18"
+            />
+          </a>
+        </div>
+        </header>
+    </header>
+    </header>
+    <main>
+        <h2>Saúde</h2>
+        <p>Bem-vindo à seção de Saúde do COEC! Aqui você encontrará informações sobre eventos comunitários relacionados à saúde, como campanhas de vacinação, feiras de saúde, palestras sobre bem-estar e muito mais. Nosso objetivo é promover a saúde e o bem-estar na comunidade, facilitando o acesso a recursos e informações importantes.</p>
+        <p>Navegue pelos eventos disponíveis e participe ativamente para cuidar da sua saúde e da saúde da sua comunidade!</p>
+        <h2>Tabela de vacinação</h2>
+        <a href="Vacinação.html"><img src="img/vacina principal.jpeg" width="700px" height="200px" alt=""></a>
+        <p>Confira as tabelas de vacina clicando na imagem acima.</p>
+        <h2>Agende uma Consulta com nossas clinicas conveniadas</h2>
+        <a href="consulta.html"><img src="img/medico.jpeg" width="700px" height="200px" alt=""></a>
+        <p>Clique na imagem acima para marcar uma consulta.</p>
+        <h2>Calculadora de IMC</h2>
+        <p>Manter o IMC saudável é importante para a sua saúde. Calcule seu Índice de Massa Corporal (IMC) utilizando a ferramenta abaixo:</p>
+        <button onclick="calcularIMC()">Calcular IMC</button>
+            <script>
+            function calcularIMC() {
+            const peso = parseFloat(prompt("Digite seu peso em kg: "));
+            const altura = parseFloat(prompt("Digite sua altura em metros: "));
+            const imc = peso / (altura ** 2);
+                alert("Seu IMC é: " + imc.toFixed(2));    
+            if (imc < 18.5) {
+                alert("Você está abaixo do peso");
+            } else if (imc >= 18.5 && imc < 24.9) {
+                alert("Você está com o peso ideal");
+            } else if (imc >= 25 && imc < 29.9) {
+                alert("Você está com sobrepeso");
+            } else if (imc >= 30 && imc < 39.9) {
+                alert("Você está com obesidade");
+            }
+              else if (imc >= 40) {
+                alert("Você está com obesidade grave");
+            }
+            }
+        </script>
+</body>
+    </main>
+<footer>
+    <p>© 2026 COEC. Todos os direitos reservados a equipe OMEGA TSI UAPI</p>
+    <p>Polo: Teresina Sul</p>
+</footer>
+</html>
+</body>
+</html>

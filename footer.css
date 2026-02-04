@@ -1,0 +1,21 @@
+/*
+.color1 { #1f0a1d };
+.color2 { #334f53 };
+.color3 { #45936c };
+.color4 { #9acc77 };
+.color5 { #e5ead4 };
+*/
+footer {
+    background-color:#94c1ed;
+    color:#1f0a1d ;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    max-width: 100%;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}

@@ -1,0 +1,62 @@
+
+/*
+.color1 { #1f0a1d };
+.color2 { #334f53 };
+.color3 { #45936c };
+.color4 { #9acc77 };
+.color5 { #e5ead4 };
+*/
+header {
+    width: 90%;
+    left: 0;
+    top: 0;
+    background-color: #94c1ed ;
+    color:  #1f0a1d;
+    text-align: center;
+    flex-direction:column;
+    border-radius: 15px;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header a{
+    font-size: 1.5em;
+}
+header h1 {
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header button {
+    background-color:  #45936c;
+    color: white; 
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+.botao-animado {
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:  #b1aeed;
+    color:  #334f53 ;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.9s ease;
+    
+}
+
+.botao-animado:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px white;
+    background-color:   #6c4fff;
+}
+
+
+
+
