@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar eventos</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="consulta.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" width="200px" alt="">
+  <h2>Calendário Online de Eventos Online</h2>
+   <nav>
+            <button class="botao-animado"><a href="principal.html">Inicio</a></button>
+            <button class="botao-animado"><a href="saude.html">Saúde</a></button>
+            <button class="botao-animado"><a href="educacao.html">Educação</a></button>
+            <button class="botao-animado"><a href="lazer.html">Lazer e Cultura</a></button>
+            <button class="botao-animado"><a href="cadastro_evento.html">Cadastrar evento</a></button>
+            <button class="botao-animado"><a href="contato.html">Contate-nos</a></button>
+            <button class="botao-animado"><a href="index.html">Sair</a></button>
+        </nav>
+        <script>
+        (function(d, s, id) {
+            if (d.getElementById(id)) {
+                if (window.__TOMORROW__) {
+                    window.__TOMORROW__.renderWidget();
+                }
+                return;
+            }
+            const fjs = d.getElementsByTagName(s)[0];
+            const js = d.createElement(s);
+            js.id = id;
+            js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+
+            fjs.parentNode.insertBefore(js, fjs);
+        })(document, 'script', 'tomorrow-sdk');
+        </script>
+
+        <div class="tomorrow"
+           data-location-id="015284"
+           data-language="PT"
+           data-unit-system="METRIC"
+           data-skin="light"
+           data-widget-type="aqiPollen"
+           
+        >
+          <a
+            href="https://weather.tomorrow.io/"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+           
+          >
+            <img
+              alt="Powered by Tomorrow.io"
+              src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+              width="250"
+              height="18"
+            />
+          </a>
+        </div>
+    </header>
+    <main>
+        <div class="menu-login">
+             <img src="img/logo.png" width="150px" alt="">
+         <h2>Cadastro de Evento</h2>
+        <form>
+            <label for="event_name">Nome do Evento:</label>
+            <input type="text" id="event_name" name="event_name" required><br><br>
+
+            <label for="event_date">Data do Evento:</label>
+            <input type="date" id="event_date" name="event_date" required><br><br>
+
+            <label for="event_time">Hora do Evento:</label>
+            <input type="time" id="event_time" name="event_time" required><br><br>
+
+            <label for="event_location">Local do Evento:</label>
+            <input type="text" id="event_location" name="event_location" required><br><br>
+
+            <label for="event_description">Descrição do Evento:</label><br>
+            <textarea id="event_description" name="event_description" rows="4" cols="40" required></textarea><br><br>
+
+            <label for="event_category">Categoria do Evento:</label>
+            <select id="event_category" name="event_category" required>
+                <option value="saude">Saúde</option>
+                <option value="educacao">Educação e Cultura</option>
+                <option value="lazer">Lazer</option>
+            </select><br><br>
+            <button type="submit">Cadastrar Evento</button>
+        </form></div>
+    </main>
+</body>
+</html>
