@@ -46,6 +46,9 @@ header button {
     transition: all 0.9s ease;
 
 }
+.botao-animado a {
+    text-decoration: none;
+    color: white;
 
 .botao-animado:hover {
     transform: translateY(-5px);
