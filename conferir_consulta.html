@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +11,12 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="consulta.css">
 </head>
+
 <body>
     <header>
-       <img src="img/logo.png" width="200px" alt="">
-  <h2>Calendário Online de Eventos Online</h2>
-   <nav>
+        <img src="img/logo.png" width="200px" alt="">
+        <h2>Calendário Online de Eventos Online</h2>
+        <nav>
             <button class="botao-animado"><a href="principal.html">Inicio</a></button>
             <button class="botao-animado"><a href="saude.html">Saúde</a></button>
             <button class="botao-animado"><a href="educacao.html">Educação</a></button>
@@ -24,66 +26,52 @@
             <button class="botao-animado"><a href="index.html">Sair</a></button>
         </nav>
         <script>
-        (function(d, s, id) {
-            if (d.getElementById(id)) {
-                if (window.__TOMORROW__) {
-                    window.__TOMORROW__.renderWidget();
+            (function (d, s, id) {
+                if (d.getElementById(id)) {
+                    if (window.__TOMORROW__) {
+                        window.__TOMORROW__.renderWidget();
+                    }
+                    return;
                 }
-                return;
-            }
-            const fjs = d.getElementsByTagName(s)[0];
-            const js = d.createElement(s);
-            js.id = id;
-            js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+                const fjs = d.getElementsByTagName(s)[0];
+                const js = d.createElement(s);
+                js.id = id;
+                js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
 
-            fjs.parentNode.insertBefore(js, fjs);
-        })(document, 'script', 'tomorrow-sdk');
+                fjs.parentNode.insertBefore(js, fjs);
+            })(document, 'script', 'tomorrow-sdk');
         </script>
 
-        <div class="tomorrow"
-           data-location-id="015284"
-           data-language="PT"
-           data-unit-system="METRIC"
-           data-skin="light"
-           data-widget-type="aqiPollen"
-           
-        >
-          <a
-            href="https://weather.tomorrow.io/"
-            rel="nofollow noopener noreferrer"
-            target="_blank"
-           
-          >
-            <img
-              alt="Powered by Tomorrow.io"
-              src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
-              width="250"
-              height="18"
-            />
-          </a>
-        </div> 
+        <div class="tomorrow" data-location-id="015284" data-language="PT" data-unit-system="METRIC" data-skin="light"
+            data-widget-type="aqiPollen">
+            <a href="https://weather.tomorrow.io/" rel="nofollow noopener noreferrer" target="_blank">
+                <img alt="Powered by Tomorrow.io" src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+                    width="250" height="18" />
+            </a>
+        </div>
     </header>
     <main>
         <div class="menu-login">
             <img src="img/logo.png" width="150px" alt="">
-          <form>
-            <h2>Consulta Médica Agendada</h2>
-            <p>Nome: [Nome do Paciente]</p>
-            <p>Data de Nascimento: [Data de Nascimento]</p>
-            <p>CPF: [CPF]</p>
-            <p>Telefone: [Telefone]</p>
-            <p>Email: [Email]</p>
-            <p>Data da Consulta: [Data da Consulta]</p>
-            <p>Hora da Consulta: [Hora da Consulta]</p>
-            <p>Local da Consulta: [Local da Consulta]</p>
-            <a href="consulta.html">Voltar para agendar consulta</a>
-        </form>
-    </div>
+            <form>
+                <h2>Consulta Médica Agendada</h2>
+                <p>Nome: [Nome do Paciente]</p>
+                <p>Data de Nascimento: [Data de Nascimento]</p>
+                <p>CPF: [CPF]</p>
+                <p>Telefone: [Telefone]</p>
+                <p>Email: [Email]</p>
+                <p>Data da Consulta: [Data da Consulta]</p>
+                <p>Hora da Consulta: [Hora da Consulta]</p>
+                <p>Local da Consulta: [Local da Consulta]</p>
+                <a href="consulta.html">Voltar para agendar consulta</a>
+            </form>
+        </div>
     </main>
     <footer>
-    <p>© 2026 COEC. Todos os direitos reservados a equipe OMEGA TSI UAPI</p>
-    <p>Polo: Teresina Sul</p>
+        <p>© 2026 COEC. Todos os direitos reservados a equipe OMEGA TSI UAPI</p>
+        <p>Polo: Teresina Sul</p>
     </footer>
     </main>
 </body>
+
 </html>

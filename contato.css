@@ -8,14 +8,17 @@
     margin: auto;
     margin-top: 20px;
 }
+
 .menu-contato img {
     margin-left: auto;
     margin-right: auto;
     display: flex;
 }
+
 .menu-contato h2 {
     text-align: center;
 }
+
 .icon {
     right: 0;
     background: #fff;
@@ -26,13 +29,14 @@
     margin: auto;
     margin-top: 20px;
 }
+
 .icon-button {
     display: flex;
     padding: 15px 30px;
     font-size: 30px;
     cursor: pointer;
-    background-color:  #1976d2;
-    color:  #fdffff ;
+    background-color: #1976d2;
+    color: #fdffff;
     border: none;
     border-radius: 20px;
     transition: all 0.9s ease;
@@ -40,8 +44,9 @@
     margin-top: auto;
     margin-bottom: 20px;
 }
+
 .icon-button:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 10px white;
-    background-color:   #6c4fff;
+    background-color: #6c4fff;
 }
