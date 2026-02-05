@@ -3,7 +3,7 @@
     background: #fff;
     padding: 20px;
     border-radius: 0 20px 20px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     margin: auto;
     margin-top: 20px;
@@ -47,9 +47,9 @@
     transition: all 0.9s ease;
     gap: 20px;
 }
-
 .menu-login button:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 10px white;
     background-color: #6c4fff;
+    box-shadow: 0 4px 8px black;
 }

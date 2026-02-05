@@ -22,7 +22,6 @@ main p {
 
 body {
     background-image: url(img/Gemini_Generated_Image_rcq9yzrcq9yzrcq9.png);
-    ;
     background-size: cover;
     background-position: center;
 }
@@ -30,6 +29,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
+    box-shadow: 0 4px 8px  black;
 }
 
 button {
