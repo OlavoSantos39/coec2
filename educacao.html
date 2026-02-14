@@ -77,6 +77,15 @@
             <p>Com o SISU (Sistema de Seleção Unificada), os estudantes podem concorrer a vagas em instituições públicas
                 de ensino superior. As inscrições para o SISU 2026 estão abertas no site do MEC. Clique na imagem acima
                 para acessar o portal oficial e realizar sua inscrição.</p>
+            <button onclick="calcularMedia()">Calcule sua média escolar</button>
+            <script>
+                function calcularMedia() {
+                    const nota1 = parseFloat(prompt("DIgite sua primeira nota:"))
+                    const nota2 = parseFloat(prompt("Digite sua segunda nota:"))
+                    const media = (nota1 + nota2) / 2
+                    alert("Sua média é: " + media.toFixed(2))
+                }
+            </script>
         </main>
         <footer>
             <p>© 2026 COEC. Todos os direitos reservados a equipe OMEGA TSI UAPI</p>
