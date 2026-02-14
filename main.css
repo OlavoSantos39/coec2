@@ -41,6 +41,9 @@ button {
     width: 300px;
     margin: auto;
     margin-top: 20px;
+    cursor: pointer;
+    color: bisque;
+    font-size: large;
 }
 
 button:hover {
@@ -48,4 +51,21 @@ button:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 10px white;
     background-color: #6c4fff;
+}
+
+.button-onclick {
+    background-color: #1976d2;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px white;
+    background-color: #6c4fff;
+    width: 100px;
+    height: auto;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+    display: inline-block;
+    cursor: pointer;
 }
