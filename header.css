@@ -33,6 +33,7 @@ header button {
     transition: background-color 0.3s;
     display: inline-block;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 .botao-animado {
@@ -44,7 +45,7 @@ header button {
     border: none;
     border-radius: 20px;
     transition: all 0.9s ease;
-
+    
 }
 .botao-animado a {
     text-decoration: none;
@@ -71,8 +72,10 @@ header button {
     transition: background-color 0.3s;
     display: inline-block;
     cursor: pointer;
+
 }
 img {
     max-width: 100%;
     height: auto;
+    margin-top: 20px;
 }
