@@ -16,6 +16,7 @@ header {
 
 header a {
     font-size: 1.5em;
+    gap: 30px;
 }
 
 header h1 {
@@ -34,6 +35,7 @@ header button {
     display: inline-block;
     cursor: pointer;
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 .botao-animado {
@@ -45,6 +47,7 @@ header button {
     border: none;
     border-radius: 20px;
     transition: all 0.9s ease;
+    gap: 30px;
     
 }
 .botao-animado a {
@@ -55,6 +58,7 @@ header button {
     transform: translateY(-5px);
     box-shadow: 0 5px 10px white;
     background-color: #6c4fff;
+    gap: 30px;
 }
 
 .button-onclick {
@@ -72,6 +76,7 @@ header button {
     transition: background-color 0.3s;
     display: inline-block;
     cursor: pointer;
+    gap: 30px;
 
 }
 img {
@@ -79,3 +84,5 @@ img {
     height: auto;
     margin-top: 20px;
 }
+
+

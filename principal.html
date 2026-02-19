@@ -58,21 +58,26 @@
             oferecendo recursos adicionais como integração com redes sociais, mapas interativos e até transmissões
             online de eventos.</p>
             <h2>Financeiro</h2>
-            <p>O COEC também conta com a melhor equipe de emprestimos da cidade. <b>Venha fazer sua simulação</b></p>
-        <button onclick="simularEmprestimo()">Simular empréstimo</button>
+        <p>O COEC é um projeto sem fins lucrativos, mantido por uma equipe de voluntários e financiado por meio de
+            parcerias com empresas locais, doações e editais de cultura. O objetivo é garantir a sustentabilidade do projeto e manter o acesso gratuito para toda a comunidade.</p>
+        <button onclick="fraseAleatória()">PRA VOCÊ</button>
         <script>
-            function simularEmprestimo() {
-                const valor = parseFloat(prompt('Digite o valor desejado:'))
-                const salario = parseFloat(prompt('Digite o valor do seu salário:'))
-                const parcela = parseFloat(prompt('Em quantas meses você quer dividir?'))
-                const valorPar = valor / parcela
-                const salarioM = salario * 30 / 100
-                const emprestimo = valor * 30 / 100 / parcela + valorPar
-                alert('O valor da parcela do seu empréstimo com 30% de juros ficará R$=' + emprestimo.toFixed(2))
-                if (emprestimo <= salarioM)
-                    alert('Emprestimo aprovado')
-                else
-                    alert('Empréstimo reprovado')
+            function fraseAleatória() {
+                const frases = [
+                    "Acredite em si mesmo e você será imparável!",
+                    "Se você pode sonhar, pode realizar!",
+                    "A persistência leva ao sucesso!",
+                    "Grandes coisas nunca vêm da zona de conforto!", 
+                    "O sucesso é a soma de pequenos esforços repetidos dia após dia!",
+                    "Não espere por oportunidades, crie-as!", 
+                    "A única maneira de fazer um excelente trabalho é amar o que você faz!",
+                    "O futuro pertence àqueles que acreditam na beleza de seus sonhos!", 
+                    "Acredite que você pode e você já está no meio do caminho!",
+                    "Grandes coisas nunca vêm da zona de conforto!", 
+                    "Transforme sonho em suor, pensamento em ação!"
+                ];
+                const frase = frases[Math.floor(Math.random() * frases.length)];
+                alert(frase);
             }
         </script>
     </main>
