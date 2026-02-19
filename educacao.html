@@ -68,6 +68,13 @@
                     const nota2 = parseFloat(prompt("Digite sua segunda nota:"))
                     const media = (nota1 + nota2) / 2
                     alert("Sua média é: " + media.toFixed(1))
+                    if (media <= 5.9) {
+                        alert("Você precisa estudar mais!")
+                    } else if (media >= 6 && media <= 7.9) {
+                        alert("Você está indo bem, mas pode melhorar.")
+                    } else if(media >= 8 && media <= 10) {
+                        alert("Parabéns! Você está indo muito bem!")
+                    }
                 }
             </script>
             
