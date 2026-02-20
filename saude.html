@@ -15,7 +15,7 @@
     <header>
         <img src="img/logo.png" width="200px" alt="">
         <h2>Calendário Online de Eventos Online</h2>
-         <form action="https://www.google.com/search" method="get" target="_blank">
+        <form action="https://www.google.com/search" method="get" target="_blank">
             <input type="text" name="q" placeholder="Pesquisa Google">
             <button type="submit">Buscar</button>
         </form>
@@ -29,7 +29,8 @@
         </nav>
         <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>
 
-<tv-ticker-tape symbols='FOREXCOM:SPXUSD,FOREXCOM:NSXUSD,FOREXCOM:DJI,FX:EURUSD,BITSTAMP:BTCUSD,BITSTAMP:ETHUSD,CMCMARKETS:GOLD'></tv-ticker-tape>
+        <tv-ticker-tape
+            symbols='FOREXCOM:SPXUSD,FOREXCOM:NSXUSD,FOREXCOM:DJI,FX:EURUSD,BITSTAMP:BTCUSD,BITSTAMP:ETHUSD,CMCMARKETS:GOLD'></tv-ticker-tape>
     </header>
     <main>
         <h2>Saúde</h2>
@@ -56,13 +57,13 @@
                 const imc = peso / (altura ** 2);
                 alert("Seu IMC é: " + imc.toFixed(2));
                 if (imc < 18.5) {
-                    alert("Você está abaixo do peso");
+                    alert("Você está abaixo do peso, é preciso se alimentar melhor e praticar atividades físicas para ganhar massa muscular.");
                 } else if (imc >= 18.5 && imc < 24.9) {
-                    alert("Você está com o peso ideal");
+                    alert("Você está com o peso ideal, mas é importante manter uma alimentação saudável e praticar atividades físicas regularmente para manter a saúde em dia.");
                 } else if (imc >= 25 && imc < 29.9) {
-                    alert("Você está com sobrepeso");
+                    alert("Você está com sobrepeso, nada que uma atividade fisica resolva.");
                 } else if (imc >= 30 && imc < 39.9) {
-                    alert("Você está com obesidade");
+                    alert("Você está com obesidade, além de atividades fisicas você deve procurar um médico para avaliar sua saúde e receber orientações específicas.");
                 }
                 else if (imc >= 40) {
                     alert("Você está com obesidade grave");
@@ -72,6 +73,14 @@
 </body>
 </main>
 <footer>
+    <nav>
+        <button onclick="window.location.replace('principal.html');">Inicio</button>
+        <button onclick="window.location.replace('educacao.html')">Educação</button>
+        <button onclick="window.location.replace('lazer.html');">Lazer e Cultura</button>
+        <button onclick="window.location.replace('cadastro_evento.html');">Cadastrar evento</button>
+        <button onclick="window.location.replace('contato.html');">Contate-nos</button>
+        <button onclick="window.location.replace('index.html');">Sair</button>
+    </nav>
     <p>© 2026 COEC. Todos os direitos reservados a equipe OMEGA TSI UAPI</p>
     <p>Polo: Teresina Sul</p>
 </footer>
