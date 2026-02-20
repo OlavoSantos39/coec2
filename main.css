@@ -31,7 +31,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
-    box-shadow: 0 4px 8px  black;
+    box-shadow: 0 4px 8px black;
 }
 
 button {
@@ -39,7 +39,7 @@ button {
     background: #1976d2;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 4 10px purple;
+    border: none;
     width: 210px;
     margin: auto;
     margin-top: 20px;
@@ -58,7 +58,6 @@ button:hover {
 .button-onclick {
     background-color: #1976d2;
     transform: translateY(-5px);
-    box-shadow: 0 5px 10px white;
     background-color: #6c4fff;
     width: 100px;
     height: auto;

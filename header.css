@@ -49,14 +49,12 @@ header button {
 .button-onclick {
     background-color: #1976d2;
     transform: translateY(-5px);
-    box-shadow: 0 5px 10px white;
     background-color: #6c4fff;
     width: 100px;
     height: auto;
     color: white;
-    padding: 12px 24px;
+   
     text-decoration: none;
-    border-radius: 25px;
     font-family: Arial, sans-serif;
     transition: background-color 0.3s;
     display: inline-block;
@@ -76,7 +74,6 @@ input[type="text"] {
     border: 1px solid #ccc;
     width: 280px;
     margin-right: 10px;
-    box-shadow: 0 0 5px #1f0a1d;
 }
 button[type="submit"] {
     padding: 10px 20px;
