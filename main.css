@@ -40,7 +40,7 @@ button {
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 4 10px purple;
-    width: 300px;
+    width: 210px;
     margin: auto;
     margin-top: 20px;
     cursor: pointer;
@@ -63,7 +63,7 @@ button:hover {
     width: 100px;
     height: auto;
     color: white;
-    padding: 12px 24px;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 25px;
     font-family: Arial, sans-serif;

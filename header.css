@@ -25,9 +25,9 @@ header h1 {
 }
 
 header button {
-    width: 200px;
+    width: ;
     color: white;
-    padding: 12px 24px;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 25px;
     font-family: Arial, sans-serif;
@@ -38,22 +38,7 @@ header button {
     margin-left: 30px;
 }
 
-.botao-animado {
-    padding: 15px;
-    font-size: 14px;
-    cursor: pointer;
-    background-color: #1976d2;
-    color: #334f53;
-    border: none;
-    border-radius: 20px;
-    transition: all 0.9s ease;
-    gap: 30px;
-    
-}
-.botao-animado a {
-    text-decoration: none;
-    color: white;
-}
+
 .botao-animado:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 10px white;
@@ -89,7 +74,7 @@ input[type="text"] {
     padding: 10px;
     border-radius: 20px;
     border: 1px solid #ccc;
-    width: 300px;
+    width: 280px;
     margin-right: 10px;
     box-shadow: 0 0 5px #1f0a1d;
 }
