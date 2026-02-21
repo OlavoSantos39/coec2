@@ -16,9 +16,9 @@
         <img src="img/logo.png" width="200px" alt="">
         <h2>Calendário Online de Eventos Online</h2>
         <form action="https://www.google.com/search" method="get" target="_blank">
-  <input type="text" name="q" placeholder="Pesquisa Google">
-  <button type="submit">Buscar</button>
-</form>
+            <input type="text" name="q" placeholder="Pesquisa Google">
+            <button type="submit">Buscar</button>
+        </form>
         <nav>
             <button onclick="window.location.replace('saude.html');">Saúde</button>
             <button onclick="window.location.replace('educacao.html')">Educação</button>
@@ -27,10 +27,11 @@
             <button onclick="window.location.replace('contato.html')">Contate-nos</button>
             <button onclick="window.location.replace('index.html')">Sair</button>
         </nav>
-       <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>
-
-<tv-ticker-tape symbols='FOREXCOM:SPXUSD,FOREXCOM:NSXUSD,FOREXCOM:DJI,FX:EURUSD,BITSTAMP:BTCUSD,BITSTAMP:ETHUSD,CMCMARKETS:GOLD'></tv-ticker-tape>
-
+        <rssapp-ticker id="1lXRc24NBnjIX650"></rssapp-ticker>
+        <script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script>
+        <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>
+        <rssapp-ticker id="t6WF0o3id2f9j8LM"></rssapp-ticker>
+        <script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script>
     </header>
     <main>
         <h2><img src="img/logo.png" width="30px" height="30px" alt="">Tudo que a comunidade precisa em um único lugar!
@@ -61,9 +62,10 @@
         <p>O COEC pretende se tornar referência em organização comunitária digital, expandindo para outras regiões e
             oferecendo recursos adicionais como integração com redes sociais, mapas interativos e até transmissões
             online de eventos.</p>
-            <h2>Financeiro</h2>
+        <h2>Financeiro</h2>
         <p>O COEC é um projeto sem fins lucrativos, mantido por uma equipe de voluntários e financiado por meio de
-            parcerias com empresas locais, doações e editais de cultura. O objetivo é garantir a sustentabilidade do projeto e manter o acesso gratuito para toda a comunidade.</p>
+            parcerias com empresas locais, doações e editais de cultura. O objetivo é garantir a sustentabilidade do
+            projeto e manter o acesso gratuito para toda a comunidade.</p>
         <button onclick="fraseAleatória()">PRA VOCÊ</button>
         <script>
             function fraseAleatória() {
@@ -71,13 +73,13 @@
                     "Acredite em si mesmo e você será imparável!",
                     "Se você pode sonhar, pode realizar!",
                     "A persistência leva ao sucesso!",
-                    "Grandes coisas nunca vêm da zona de conforto!", 
+                    "Grandes coisas nunca vêm da zona de conforto!",
                     "O sucesso é a soma de pequenos esforços repetidos dia após dia!",
-                    "Não espere por oportunidades, crie-as!", 
+                    "Não espere por oportunidades, crie-as!",
                     "A única maneira de fazer um excelente trabalho é amar o que você faz!",
-                    "O futuro pertence àqueles que acreditam na beleza de seus sonhos!", 
+                    "O futuro pertence àqueles que acreditam na beleza de seus sonhos!",
                     "Acredite que você pode e você já está no meio do caminho!",
-                    "Grandes coisas nunca vêm da zona de conforto!", 
+                    "Grandes coisas nunca vêm da zona de conforto!",
                     "Transforme sonho em suor, pensamento em ação!"
                 ];
                 const frase = frases[Math.floor(Math.random() * frases.length)];
@@ -85,9 +87,9 @@
             }
         </script>
     </main>
-
     <footer>
         <nav>
+            </div>
             <button onclick="window.location.replace('saude.html');">Saúde</button>
             <button onclick="window.location.replace('educacao.html')">Educação</button>
             <button onclick="window.location.replace('lazer.html')">Lazer e Cultura</button>
@@ -95,6 +97,7 @@
             <button onclick="window.location.replace('contato.html')">Contate-nos</button>
             <button onclick="window.location.replace('index.html')">Sair</button>
         </nav>
+
         <p>© 2026 COEC. Todos os direitos reservados a equipe OMEGA TSI UAPI</p>
         <p>Polo: Teresina Sul</p>
     </footer>
