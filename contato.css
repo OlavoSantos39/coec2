@@ -46,7 +46,9 @@
 }
 
 .icon-button:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 10px white;
-    background-color: #6c4fff;
+    animation-name: anima;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }

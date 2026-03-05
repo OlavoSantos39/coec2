@@ -39,8 +39,11 @@ footer a {
 }
 
 footer button:hover {
-  background-color: #6c4fff;
-  box-shadow: 0 5px 10px white;
+  animation-name: anima;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 
@@ -54,9 +57,4 @@ footer nav button {
   font-family: Arial, sans-serif;
   transition: background-color 0.3s;
   cursor: pointer;
-}
-
-footer nav button:hover {
-  background-color: #6c4fff;
-  box-shadow: 0 5px 10px white;
 }

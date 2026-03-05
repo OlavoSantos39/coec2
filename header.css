@@ -1,3 +1,13 @@
+@keyframes anima {
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.2);
+    }
+}
+
 header {
     width : 100%;
     left : 0;
@@ -25,43 +35,32 @@ header h1 {
 }
 
 header button {
-    width: ;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 25px;
     font-family: Arial, sans-serif;
-    transition: background-color 0.3s;
     display: inline-block;
     cursor: pointer;
     margin-bottom: 20px;
     margin-left: 30px;
 }
 
+button:hover {
+    animation-name: anima;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 
 .botao-animado:hover {
-    transform: translateY(-5px);
+    
     box-shadow: 0 5px 10px white;
     background-color: #6c4fff;
     gap: 30px;
 }
 
-.button-onclick {
-    background-color: #1976d2;
-    transform: translateY(-5px);
-    background-color: #6c4fff;
-    width: 100px;
-    height: auto;
-    color: white;
-   
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    transition: background-color 0.3s;
-    display: inline-block;
-    cursor: pointer;
-    gap: 30px;
-
-}
 img {
     max-width: 100%;
     height: auto;
