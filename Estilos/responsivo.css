@@ -1,0 +1,30 @@
+@media screen and (max-width:768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    header h1 {
+        margin-bottom: 10px;
+    }
+    header li {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    section#sobre {
+        width: 100%;
+    }
+    section#cursos {
+        width: 100%;
+    }
+    section#cursos form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    section#cursos form .curso {
+        margin: auto;
+        margin-top: 20px;
+    }
+}

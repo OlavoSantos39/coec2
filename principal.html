@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/principal.css">
+    <link rel="stylesheet" href="Estilos/cursos.css">
+    <link rel="stylesheet" href="Estilos/responsivo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>COEC</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="">
+        <h1>COEC</h1>
+        <ul>
+            <li>
+                <a href="#">Início <i class="fa-solid fa-play"></i></a>
+                <a href="#cursos">Cursos <i class="fa-solid fa-book-bookmark"></i></a>
+                <a href="#saude">Saúde <i class="fa-solid fa-heart-pulse"></i></a>
+                <a href="#eventos">Eventos <i class="fa-solid fa-champagne-glasses"></i></a>
+                <a href="index.html">Sair <i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+            </li>
+        </ul>
+    </header>
+    <section id="sobre">
+        <h1>Sobre nós</h1>
+        <p>
+            Somos um espaço dedicado a fortalecer nossa comunidade por meio de ações que promovem bem-estar, conhecimento e
+            convivência. Nosso objetivo é criar oportunidades para que todos possam cuidar da saúde, aprender novas
+            habilidades e celebrar juntos os momentos especiais.
+            Saúde: organizamos campanhas, palestras e atividades voltadas para a prevenção e promoção da qualidade de vida.
+            Cursos: oferecemos formações e oficinas que estimulam o crescimento pessoal e profissional, sempre com foco na
+            inclusão e acessibilidade.
+            Festas e eventos culturais: celebramos nossas tradições e criamos encontros que aproximam pessoas, fortalecem
+            laços e valorizam a diversidade.
+            Acreditamos que uma comunidade saudável, informada e unida é capaz de transformar realidades. Por isso, cada
+            ação que realizamos é pensada para gerar impacto positivo e duradouro.
+        </p>
+    </section>
+
+    <section id="cursos">
+        <p>No COEC você conta com cursos didatícos e cursos artesanais</p>
+        <form action="">
+            <h2>Escolha seu Curso Didático</h2>
+            <p><i class="fa-solid fa-person"></i><input class="info" type="text" required placeholder="Nome completo"></p>
+            <p><i class="fa-solid fa-key"></i><input type="number" class="info" required placeholder="CPF"></p>
+            <label class="opcao">
+                <input class="curso" type="radio" name="opcao" value="Redação">Redação
+            </label>
+            <label class="opcao">
+                <input class="curso" type="radio" name="opcao" value="Matematica">Matemática
+            </label>
+            <label class="opcao">
+                <input class="curso" type="radio" name="opcao" value="Ingles">Inglês
+            </label>
+            <label class="opcao">
+                <input class="curso" type="radio" name="opcao" value="Informatica">Informática
+            </label>
+
+            <input class="btn" type="button" value="Inscreva-se">
+
+            <p>Todos os nossos cursos didáticos são realizados no centro de capacitação localizado na praça principal.</p>
+        </form>
+
+        <form action="">
+             <h2>Escolha seu Curso Artesanal</h2>
+            <p><i class="fa-solid fa-person"></i><input class="info" type="text" required placeholder="Nome completo"></p>
+            <p><i class="fa-solid fa-key"></i><input type="number" class="info" required placeholder="CPF"></p>
+            <label class="opcao">
+                <input class="curso" type="radio" name="opcao" value="bordado">Bordado
+            </label>
+            <label class="opcao">
+                <input class="curso" type="radio" name="opcao" value="pintura">Pintura em ceramica
+            </label>
+            <label class="opcao">
+                <input class="curso" type="radio" name="opcao" value="corte">Corte e costura
+            </label>
+            <label class="opcao">
+                <input class="curso" type="radio" name="opcao" value="salgado">Salgados
+            </label>
+            <label class="opcao">
+                <input class="curso" type="radio" name="opcao" value="confeiteiro">Confeiteiro(a)
+            </label>
+
+            <input class="btn" type="button" value="Inscreva-se">
+
+            <p>Todos os nossos cursos são realizados no centro de paróquial localizado por tráz da igueja matriz.</p>
+        </form>
+    </section>
+
+</body>
+
+</html>
