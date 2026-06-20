@@ -4,27 +4,46 @@
         flex-direction: column;
         width: 100%;
     }
+
     header h1 {
-        margin-bottom: 10px;
+        display: none;
     }
+
+
     header li {
         display: flex;
         justify-content: space-evenly;
+        gap: 5px;
         margin-bottom: 20px;
     }
+
+    header .desktop {
+        display: none;
+    }
+
+    header .movel {
+        display: inline;
+        justify-content: space-between;
+    }
+
     section#sobre {
         width: 100%;
     }
+
     section#cursos {
         width: 100%;
     }
+
     section#cursos form {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+
     section#cursos form .curso {
         margin: auto;
         margin-top: 20px;
     }
+
+    
 }
